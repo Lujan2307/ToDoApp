@@ -7,6 +7,11 @@ class Todo:
         self.completed: False
         self.tags: []
 
+    def mark_completed(self):
+        self.completed = True
+
+
+
 
 
 
